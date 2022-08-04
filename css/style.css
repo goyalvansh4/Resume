@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    align-content: center;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.my_name{
+    
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.my_name .name{
+    
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.info{
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.info h4{
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+.info h4 a{
+    color: #0000FF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.info a:hover{
+    color: #0ad5f5;
+}
+.edu{
+    margin-top:1.3rem;
+    margin-left: 4.8rem; 
+    
+    
+}
+.edu .education{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    text-transform: uppercase;
+    font-size:2rem;
+    color: #000000;
+    font-weight: 600;
+}
+.table{
+    margin-top:1.3rem;
+    margin-left: 4.8rem;
+    /* position: relative; */
+    align-items: center;
+}
+table{
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+}
+.table .tab{
+    padding-left: 0.5rem;
+    margin-right: auto;
+    /* position: absolute; */
+    width: 80%;
+}
+.table .tab th{
+    border: 0.1rem solid black;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 500;
+    padding: 0.5rem;
+    
+}
+.table .tab td{
+    border: 0.1rem solid black;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 400;
+    padding: 0.5rem;
+    
+}
+.pro{
+    margin-top:1.3rem;
+    margin-left: 4.8rem;  
+}
+.proj{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    text-transform: uppercase;
+    font-size:2rem;
+    color: #000000;
+    font-weight: 600;
+}
+.list{
+    margin-top:1.3rem;
+    margin-left: 4.8rem;
+}
+
+.list ul li{
+    
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+.list ul li{
+    list-style-type: disc;
+    padding-bottom: 0.4rem;
+    text-transform: uppercase;
+}
+.list ul p{
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 400;
+    padding: 0.1rem;
+    padding-bottom: 0.4rem;
+}
+.tech{
+    margin-top:1.3rem;
+    margin-left: 4.8rem;
+   
+}
+
+.tech p{
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 400;
+    padding: 0.1rem;
+    padding-bottom: 0.4rem;
+    text-transform: capitalize;
+}
+.list p a{
+    color: #0000FF;
+
+}
+.list p a:hover{
+    color: #0ad5f5;
+}
+
+.profile{
+    margin-top:1rem;
+    margin-left: 4.8rem; 
+}
+
+.profile a{
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.profile a:hover{
+    color: #0ad5f5;
+}
+@media screen and (max-width:768px) {
+    html{
+        font-weight: 55%;
+    }
+   .my_name{
+    margin-top:1.5rem;
+   }
+
+}
